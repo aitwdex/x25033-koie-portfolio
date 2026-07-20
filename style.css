@@ -1,7 +1,13 @@
-body{
-    background-color:aliceblue;
-    font-family: 'Noto Sans JP', sans-serif;
+.about-title{
+    background-color:black;
+    color:white;
+    font-size:25px;
 }
-.center{
-    text-align:center;
+.about-name{
+    font-size: 15px;
+    color:black;
+}
+.about-text{
+    font-size:15px;
+    color:black;
 }
