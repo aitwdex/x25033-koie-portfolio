@@ -23,3 +23,109 @@
     text-align:center;
 }
 
+.works-title{
+    background-color:black;
+    color:white;
+    font-size:50px;
+     text-align: center;
+}
+.works-hako {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;                  
+}
+.works-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;                 
+    width: 100%;
+}
+.works-block.reverse {
+    flex-direction: row-reverse;
+}
+.works-photo {
+    width: 220px;             
+    height: auto;
+}
+.works-name h3{
+    white-space: nowrap;
+}
+.skill-title{
+    background-color:black;
+    color:white;
+    font-size:50px;
+     text-align: center;
+}
+.skill-photo {
+    width: 220px;             
+    height: auto;
+}
+.skills-line {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;               
+}
+.kihon-title {
+            text-align: center;
+            font-size: 30px;
+        }
+        .kihon-minititle {
+            text-align: center;
+            font-size: 24px;
+        }
+        .kihon-block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .kihon-photo {
+            width: 180px;
+            height: auto;
+        }
+        .kihon-text {
+            font-size: 20px;
+        }
+        .back-button {
+            text-align: center;
+            margin: 40px;
+            font-size:15px
+        }
+        .back-button a {
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+        .hakason-title {
+            text-align: center;
+            font-size: 30px;
+        }
+        .hakason-minititle {
+            text-align: center;
+            font-size: 24px;
+        }
+        .hakason-block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .hakason-photo {
+            width: 180px;
+            height: auto;
+        }
+        .hakason-text {
+            font-size: 20px;
+        }
+        @media (max-width: 768px) {
+           .works-block,.works-block.reverse,kihon-block,hakason-block
+           {
+            flex-direction:column
+           }
+
+        }
